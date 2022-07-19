@@ -1,0 +1,20 @@
+{
+  "name": "@karstradt/find-specific-files",
+  "version": "1.0.0",
+  "description": "This is a plugin to find any file with specific wildcards",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karstradt/find-specific-files.git"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karstradt/find-specific-files/issues"
+  },
+  "homepage": "https://github.com/karstradt/find-specific-files#readme"
+}
