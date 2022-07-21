@@ -125,7 +125,6 @@ function traverseLinear(constructedPath, pathItem) {
 }
 
 export const findFiles = (rootPath, matchPattern) => {
-    //console.log(rootPath);
 
     let callerPath = (rootPath) || process.mainModule.filename;
 
@@ -136,9 +135,6 @@ export const findFiles = (rootPath, matchPattern) => {
     //split the path with '/'
     targetDirPathArr = matchPattern.split('/');
     const lastItem = targetDirPathArr[targetDirPathArr.length - 1];
-
-    console.log("targetDirPathArr: ", targetDirPathArr);
-    console.log("lastItem: ", lastItem);
 
     if ((lastItem.indexOf('*') > -1 || lastItem.indexOf('?') > -1)) {
         filePattern = convertWildCardToRegex(lastItem);
