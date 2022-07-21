@@ -1,6 +1,6 @@
 {
   "name": "@karstradt/find-specific-files",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a plugin to find any file with specific wildcards",
   "main": "index.js",
   "scripts": {
